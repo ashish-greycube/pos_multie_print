@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include pos_multie_print *.css
+recursive-include pos_multie_print *.csv
+recursive-include pos_multie_print *.html
+recursive-include pos_multie_print *.ico
+recursive-include pos_multie_print *.js
+recursive-include pos_multie_print *.json
+recursive-include pos_multie_print *.md
+recursive-include pos_multie_print *.png
+recursive-include pos_multie_print *.py
+recursive-include pos_multie_print *.svg
+recursive-include pos_multie_print *.txt
+recursive-exclude pos_multie_print *.pyc
